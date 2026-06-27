@@ -3,7 +3,7 @@ import time
 
 class TelegramNotifier:
     def __init__(self, bot_token, chat_id, min_interval_sec=5):
-        self.bot_token = "8541464745:AAEOegMT8BloGTQeJF4fM9UAxLtA1Au0NqE"
+        self.bot_token = ""
         self.chat_id = 1872508623
         self.base = f"https://api.telegram.org/bot{bot_token}"
         self.min_interval = min_interval_sec
